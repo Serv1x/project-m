@@ -15,32 +15,32 @@ with open("output.json", "r") as file:
 print(SID_data) 
 
 
-# driver = webdriver.Chrome()
-# driver.get("https://mybaps.uk.baps.org/")
+driver = webdriver.Chrome()
+driver.get("https://mybaps.uk.baps.org/")
     
-# time.sleep(3)
+time.sleep(3)
 
 
 
 
-# p1_sign_in = driver.find_element(By.XPATH, '//a[@href="/Account/SignUpSignIn"]')
-# p1_sign_in.click()
+p1_sign_in = driver.find_element(By.XPATH, '//a[@href="/Account/SignUpSignIn"]')
+p1_sign_in.click()
 
-# time.sleep(5)
+time.sleep(5)
 
-# email_type= driver.find_element(By.ID, 'logonIdentifier') 
-# email_type.send_keys("manislearning@gmail.com") # Change the text here to the karaykars email 
+email_type= driver.find_element(By.ID, 'logonIdentifier') 
+email_type.send_keys("manislearning@gmail.com") # Change the text here to the karaykars email 
 
-# time.sleep(3)
+time.sleep(3)
 
-# password_type= driver.find_element(By.ID, 'password') 
-# password_type.send_keys("SonicBoom1") # Change the text here to the karaykars password
-# time.sleep(3)
+password_type= driver.find_element(By.ID, 'password') 
+password_type.send_keys("SonicBoom1") # Change the text here to the karaykars password
+time.sleep(3)
 
-# move_on_sign_up = driver.find_element(By.ID, 'next')
-# move_on_sign_up.click()
+move_on_sign_up = driver.find_element(By.ID, 'next')
+move_on_sign_up.click()
 
 
-# time.sleep(30)
+time.sleep(30)
 
 

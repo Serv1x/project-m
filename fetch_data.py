@@ -34,7 +34,7 @@ def main():
 
        
     # CHANGE THE ONE BELOW TO THE ATTENDANCE COLUMN E.G AM3:AM80  (ALWAYS 3 AND 80)
-        result1 = sheets.values().get(spreadsheetId=SPREADSHEETS_ID, range="Sheet1!AM3:AM80").execute()
+        result1 = sheets.values().get(spreadsheetId=SPREADSHEETS_ID, range="Sheet1!AH3:AH80").execute()
         # result variable has all the yes's
         attendance = result1.get("values", [])
 
